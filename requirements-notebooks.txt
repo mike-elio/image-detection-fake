@@ -1,0 +1,9 @@
+-r requirements.txt
+datasets
+huggingface_hub
+numpy
+matplotlib
+scikit-learn
+tqdm
+jupyterlab
+ipykernel

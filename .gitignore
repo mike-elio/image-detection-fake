@@ -1,0 +1,35 @@
+# Local checkpoints and tensor archives
+best_accuracy_model/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+
+# Reports are summarized in README, not published
+*.pdf
+
+# Local images, datasets, generated artifacts
+images/
+data/
+datasets/
+*_processed/
+*_checkpoints/
+output/
+tmp/
+
+# Python and notebooks
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Private configuration and editor files
+.env
+.env.*
+!.env.example
+*.code-workspace
+.vscode/
+.DS_Store
+Thumbs.db

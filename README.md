@@ -17,13 +17,13 @@ The model distinguishes **real**, **fully synthetic**, and **tampered** images. 
 | [predict.py](predict.py) | Reference inference on images in a local `images/` directory |
 | [requirements.txt](requirements.txt) | Inference dependencies: PyTorch, torchvision, Pillow |
 | [requirements-notebooks.txt](requirements-notebooks.txt) | Training, evaluation, plotting, dataset and Jupyter dependencies |
-| [model1.ipynb](model1.ipynb) | Experiment 1: ConvNeXt-Base, small dataset |
-| [model1 (1).ipynb](model1%20%281%29.ipynb) | Experiment 2: ConvNeXt-Small, small dataset |
-| [cool2 (2).ipynb](cool2%20%282%29.ipynb) | Experiment 3: ConvNeXt-Small, 50,000 images |
-| [cool2 (5).ipynb](cool2%20%285%29.ipynb) | Experiment 4: ConvNeXt-Base, 50,000 images |
-| [notebook88015de9df (4).ipynb](notebook88015de9df%20%284%29.ipynb) | Experiment 5: ConvNeXt-Base, 121,000 images, test evaluation and external-image predictions |
+| [01_convnext_base_3976.ipynb](experiments/01_convnext_base_3976.ipynb) | Experiment 1: ConvNeXt-Base, 3,976 images |
+| [02_convnext_small_3976.ipynb](experiments/02_convnext_small_3976.ipynb) | Experiment 2: ConvNeXt-Small, 3,976 images |
+| [03_convnext_small_50000.ipynb](experiments/03_convnext_small_50000.ipynb) | Experiment 3: ConvNeXt-Small, 50,000 images |
+| [04_convnext_base_50000.ipynb](experiments/04_convnext_base_50000.ipynb) | Experiment 4: ConvNeXt-Base, 50,000 images |
+| [05_convnext_base_121000.ipynb](experiments/05_convnext_base_121000.ipynb) | Experiment 5: ConvNeXt-Base, 121,000 images, test evaluation and external-image predictions |
 
-The `(4)` notebook is the later copy of the fifth experiment: it retains the same training run as `(3)` and adds two external-image inference examples. The earlier copy is omitted to keep five experiments.
+The five notebooks are grouped in `experiments/` and numbered in experiment order. Each filename identifies its architecture and dataset size. Experiment 5 uses the later source copy, including two additional external-image inference examples; the earlier duplicate is omitted.
 
 ## Recorded experiments
 
